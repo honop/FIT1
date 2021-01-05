@@ -1,0 +1,51 @@
+body{text-align: center;
+font-size: large;
+  font-family: 'Montserrat', sans-serif;
+  margin:0;
+}
+
+
+
+h1{text-align: center;
+font-size: large;
+font-family: "HiraginoSans-W0","ヒラギノ角ゴシック W0";
+background: #dfefff;
+box-shadow: 0px 0px 0px 5px #dfefff;
+border: dashed 1px #96c2fe;
+padding: 0.2em 0.5em;
+color: #454545;
+}
+
+
+
+.container {
+  align-items: center;
+  align-content: center;
+  width: 80vw;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+.btn {
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+ }
+
+/* Demo Stuff End -> */
+
+/* <- Magic Stuff Start */
+
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+
+.btn-1 {
+  background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+}

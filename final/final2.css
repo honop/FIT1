@@ -1,0 +1,98 @@
+body{text-align: center;
+font-size: large;
+font-family: "HiraginoSans-W0","ヒラギノ角ゴシック W0";
+}
+
+
+
+
+h1{text-align: center;
+font-size: large;
+font-family: "HiraginoSans-W0","ヒラギノ角ゴシック W0";
+background: #dfefff;
+box-shadow: 0px 0px 0px 5px #dfefff;
+border: dashed 1px #96c2fe;
+padding: 0.2em 0.5em;
+color: #454545;
+}
+
+
+
+
+.piano {
+	position: relative;
+	width: 446.304045px;
+	height: 400px;
+	box-shadow: 1px 1px 1px #ccc;
+	z-index: auto;
+}
+.piano img {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.piano .box {
+	position: absolute;
+	width: 446.304045px;
+	height: 460px; /* 画像の高さと吹き出しの高さをプラスした値 */
+	top: 0;
+	left: 0;
+	border-radius: 0 0 10px 10px;
+  background-color: #CC66FF;
+	box-shadow: 2px 2px 4px #000;
+	display: none;
+}
+.piano .text {
+	position: absolute;
+	font-size: 20px;
+	left: 4px;
+	top: 408px;
+	color: #FFFFFF;
+}
+.piano:hover img {
+	z-index: 4; /* .boxよりも上に表示 */
+}
+.piano:hover .box {
+	z-index: 3; /* imgよりも下に表示 */
+	display: block;
+}
+
+
+/**/
+.uranai {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	box-shadow: 1px 1px 1px #ccc;
+	z-index: auto;
+}
+.uranai img {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.uranai .box2 {
+	position: absolute;
+	width: 400px;
+	height: 460px; /* 画像の高さと吹き出しの高さをプラスした値 */
+	top: 0;
+	left: 0;
+	border-radius: 0 0 10px 10px;
+  background-color: #CC0066;
+	box-shadow: 2px 2px 4px #000;
+	display: none;
+}
+.uranai .text2 {
+	position: absolute;
+	font-size: 20px;
+	left: 4px;
+	top: 408px;
+	color: #FFFFFF;
+}
+.uranai:hover img {
+	z-index: 4; /* .boxよりも上に表示 */
+}
+.uranai:hover .box2 {
+	z-index: 3; /* imgよりも下に表示 */
+	display: block;
+}
